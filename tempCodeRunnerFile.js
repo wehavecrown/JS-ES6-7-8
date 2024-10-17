@@ -1,1 +1,1 @@
-    console.log(incomes)
+false
