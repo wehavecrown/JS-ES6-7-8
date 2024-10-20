@@ -16,3 +16,9 @@ export class Animal{
         return 10;
     }
 }
+
+export class Cat extends Animal {
+     makeNoise(sound = "meow"){
+        console.log(sound);
+     }
+} 

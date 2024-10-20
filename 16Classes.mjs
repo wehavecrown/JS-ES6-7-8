@@ -1,5 +1,6 @@
-import { Animal } from './animal.mjs';
+import { Animal, Cat } from './animal.mjs';
 
-let cat = new Animal('Cat', 4);
+let cat = new Cat('Cat', 4);
 
+cat.makeNoise();
 console.log(cat.metadata)
